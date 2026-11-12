@@ -1,0 +1,9 @@
+langchain
+langgraph
+open-ai whisper
+gtts
+langchain-huggingface
+streamlite
+langchain-groq
+langchain-pinecone
+pinecone
