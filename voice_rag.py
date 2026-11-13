@@ -197,4 +197,5 @@ q.add_edge("speak", "listen")
 graph = q.compile()
 
 if __name__ == "__main__":
-    graph.invoke({"messages": []}, config={"recursion_limit": 200})
+    response=graph.invoke({"messages": []}, config={"recursion_limit": 200})
+    print(response)
